@@ -1,6 +1,6 @@
 import React from "react";
 
- function Calculator(expressNum) {
+const Calculator = (expressNum) => {
   const inputNum = expressNum.split(" ");
   const newStack = [];
   
@@ -13,7 +13,7 @@ import React from "react";
       let operator1 = newStack.pop();
       let operator2 = newStack.pop();
       if (inputNum[i] === 'q') {
-        process.exit(1);
+        process.exit(0);
       }
       if (inputNum[i] === "+") {
         newStack.push(parseInt(operator1) + parseInt(operator2));
@@ -23,8 +23,10 @@ import React from "react";
         newStack.push(parseInt(operator1) * parseInt(operator2));
       } else if (inputNum[i] === "/") {
         newStack.push(parseInt(operator2) / parseInt(operator1));
+        }else if(inputNum[i] === "*") {
+          stack.push(parseInt(a) * parseInt(b));
+        }
       }
-    }
   }
   if(newStack.length < 1) {
       return "ERROR";
@@ -33,17 +35,9 @@ import React from "react";
   }
 }
 
+ Calculator("");
 
- //console.log(Calculator("q"));
+
 console.log(Calculator("5 8 +"));
-console.log(Calculator("5 5 5 8 + + - 13 +"));
-console.log(Calculator("-3 -2 * 5 +"));
-console.log(Calculator("5 9 1 - /"));
-console.log(Calculator(" "))
-console.log(Calculator("5 9 4 2 2 9 2 1 1 8 + + - 13 +"));
-
-
-//Communicates with the test file
-//module.exports = Calculator;
 
 export default Calculator;
