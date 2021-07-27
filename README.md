@@ -20,11 +20,12 @@ Given more time on this project I would create a hosted UI.
 
 ## Instructions
 1. To use the calculator, you'll need to download Node JS v15.12.0. 
-2. Download the Reverse-Polish-Notation-Calculator zip file or clone with `git clone https://github.com/KatanaHaley/Reverse-Polish-Notation-Calculator.git`. 
-3. Open the command line and open the Reverse-Polish-Notation-Calculator in your IDE. 
-4. Enter `cd src` to navigate to the src directory. 
-5. To use the calculator, enter your calculation into console.log(), ex:`console.log(Calculator("5 8 +");`. 
-6. To see the output run `node Calculator.mjs` in your terminal. 
+2. To run tests install Mocha and Chai `npm i mocha` and `npm i chai`.
+3. Download the Reverse-Polish-Notation-Calculator zip file or clone with `git clone https://github.com/KatanaHaley/Reverse-Polish-Notation-Calculator.git`. 
+4. Open the command line and open the Reverse-Polish-Notation-Calculator in your IDE. 
+5. Enter `cd src` to navigate to the src directory. 
+6. To use the calculator, enter your calculation into console.log(), ex:`console.log(Calculator("5 8 +");`. 
+7. To see the output run `node Calculator.mjs` in your terminal. 
 
 ## Available Scripts
 
