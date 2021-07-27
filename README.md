@@ -19,7 +19,12 @@ If 'q' is entered, the program quits immediately. The function goes through a se
 Given more time on this project I would create a hosted UI.
 
 ## Instructions
-To use the calculator, you'll need Node JS installed. Open the terminal to the Calculator.js file to run the program. Comment out the import statement at the top of the file, the export statement at the bottom of the file, and uncomment module.exports = Calculator; to see the output.
+1. To use the calculator, you'll need to download Node JS v15.12.0. 
+2. Download the Reverse-Polish-Notation-Calculator zip file or clone with `git clone https://github.com/KatanaHaley/Reverse-Polish-Notation-Calculator.git`. 
+3. Open the command line and open the Reverse-Polish-Notation-Calculator in your IDE. 
+4. Enter `cd src` to navigate to the src directory. 
+5. To use the calculator, enter your calculation into console.log(), ex:`console.log(Calculator("5 8 +")`. 
+6. To see the output run `node Calculator.mjs` in your terminal. 
 
 ## Available Scripts
 
