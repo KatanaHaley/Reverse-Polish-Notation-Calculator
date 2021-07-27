@@ -24,7 +24,7 @@ const Calculator = (expressNum) => {
       } else if (inputNum[i] === "/") {
         newStack.push(parseInt(operator2) / parseInt(operator1));
         }else if(inputNum[i] === "*") {
-          stack.push(parseInt(a) * parseInt(b));
+          stack.push(parseInt(operator1) * parseInt(operator2));
         }
       }
   }
